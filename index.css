@@ -1,0 +1,135 @@
+/* Feel free to edit CSS of body if you'd like. We provide you the light gray background color and font family in the body styling */
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  background-color: #e6ecf0;
+}
+
+/* TODO: Create CSS for your Twitter Mockup */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  gap: 30px; 
+}
+
+#twitter-logo-centerring {
+  width:25px;
+  height: 25px;
+}
+
+#twitter-tweet-button {
+  background-color: rgb(79, 188, 234);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+span {
+  font-weight: 700; 
+}
+
+.navigation-buttons {
+  color: grey;
+}
+
+.button:hover {
+  color: rgb(8, 152, 255);
+  text-decoration: underline;
+}
+
+.nav-icon {
+  display: none;
+}
+
+.nav-text {
+  display: inline;
+}
+
+@media (max-width: 1200px) {
+  .nav-text {
+    display: none;
+  }
+
+  .nav-icon {
+    display: inline;
+  }
+}
+
+.content-wrapper {
+  max-width: 1450px;
+  margin: 60px auto 0;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 200px;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-top: 20px;
+  z-index: 100;
+  width: 90px;
+  height: 90px; 
+  transform: translate(-160%,-50%);
+  position: relative;
+}
+
+.tweet-profile {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+.tweets {
+  width: 550px;
+  height: 80px;
+  z-index: 100;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 1px solid #e6ecf0;
+  gap: 10px;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+}
+
+.follow-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.items-inside {
+  width: 450px;   
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 4px;
+}

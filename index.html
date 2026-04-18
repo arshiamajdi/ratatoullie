@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arshia's Lab2</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <a href="#main-content" style="display: none;">Skip to main content</a>
+      
+     <div class="header">
+        <div style="display:flex;gap:30px;">
+          <span class="button">
+            <span class="nav-text">Home</span>
+            <i class="fas fa-home nav-icon"></i>
+          </span>
+
+          <span class="button">
+            <span class="nav-text">Moment</span>
+            <i class="fas fa-hashtag nav-icon"></i>
+          </span>
+
+          <span class="button">
+            <span class="nav-text">Notifications</span>
+            <i class="far fa-bell nav-icon"></i>
+          </span>
+
+          <span class="button">
+            <span class="nav-text">messages</span>
+            <i class="far fa-envelope nav-icon"></i>
+          </span>
+        </div> 
+
+        <div>
+          <img style="transform: translateX(-500%);" src="images/twitter-logo.png" alt="Twitter Logo" id="twitter-logo-centerring">
+        </div>
+
+        <div>
+          <h4 id="twitter-tweet-button">Tweet</h4>
+        </div>
+      </div>
+
+     <div class="content-wrapper">
+      <div class="profile-container" role="main" id="main-content"> 
+        <div>
+          <img src="images/ratatouille-banner.png" alt="ratatouille banner" style="width:400px;height:120px;">
+        </div>
+        <div>
+          <img class="profile" src="images/ratatouille.jpg" alt="ratatouille image">
+        </div>
+        <div style="width: 400px;height: 220px;background-color: white; transform: translateY(-60%);">
+          <h3 style="display: flex;justify-content: center;transform: translate(-12%,5%);text-decoration: underline;">Remy</h3>
+          <h4 style="display: flex;justify-content: center;transform: translate(-12%,-100%);color: grey;">@remy</h4>
+          <div style="display: flex; justify-content: space-around; width: 100%;">
+            <div style="text-align: center;">
+              <h4 style="color: grey;">Tweets</h4>
+              <h4 style="color: rgb(9, 156, 220);">5049</h4>
+            </div>
+
+            <div style="text-align: center;">
+              <h4 style="color: grey;">Following</h4>
+              <h4 style="color: rgb(9, 156, 220);">324</h4>
+            </div>
+
+            <div style="text-align: center;">
+              <h4 style="color: grey;">Followers</h4>
+              <h4 style="color: rgb(9, 156, 220);">809</h4>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div>
+      <div class="tweets">
+        <img class="tweet-profile" src="images/ratatouille.jpg">
+        
+        <div style="display: flex;flex-direction: column;justify-content: center;align-items: flex-start;">
+          <div style="word-spacing: 2px;">
+            <span>Remy</span>
+            <span style="color: grey;">@remy Nov 19</span>
+          </div>
+          <p>I'm taking this class called CS 110 and the TAs are all so <strong>cool!</strong></p>
+        </div>          
+      </div>
+
+      <div class="tweets">
+        <img class="tweet-profile" src="images/ratatouille.jpg">
+        
+        <div style="display: flex;flex-direction: column;justify-content: center;align-items: flex-start;">
+          <div style="word-spacing: 2px;">
+            <span>Remy</span>
+            <span style="color: grey;">@remy Nov 19</span>
+          </div>
+          <p>It's 2007. You just got home from elementary school. Your mom has pizza bagels in the oven. ratatouille is in theaters. Life is good</p>
+        </div>          
+      </div>
+
+      <div class="tweets">
+        <img class="tweet-profile" src="images/ratatouille.jpg">
+        
+        <div style="display: flex;flex-direction: column;justify-content: center;align-items: flex-start;">
+          <div style="word-spacing: 2px;">
+            <span>Remy</span>
+            <span style="color: grey;">@remy Nov 19</span>
+          </div>
+          <p>Let's make some Pasta!</p>
+        </div>          
+      </div>
+
+      <div class="tweets">
+        <img class="tweet-profile" src="images/ratatouille.jpg">
+        
+        <div style="display: flex;flex-direction: column;justify-content: center;align-items: flex-start;">
+          <div style="word-spacing: 2px;">
+            <span>Remy</span>
+            <span style="color: grey;">@remy Nov 19</span>
+          </div>
+          <p>Let's make some Pasta!</p>
+        </div>          
+      </div>
+
+      <div class="tweets">
+        <img class="tweet-profile" src="images/ratatouille.jpg">
+        
+        <div style="display: flex;flex-direction: column;justify-content: center;align-items: flex-start;">
+          <div style="word-spacing: 2px;">
+            <span>Remy</span>
+            <span style="color: grey;">@remy Nov 19</span>
+          </div>
+          <p>Let's make some Pasta!</p>
+        </div>          
+      </div>
+      
+  </div>
+
+  <div style="width: 800px;height:320px;background-color: white;" class="follow-options">
+
+      <div style="height:46px;margin-left: 15px;" class="items-inside">
+        <h2>Who to follow</h2>
+      </div>
+      <div style="height:120px;" class="items-inside">
+
+        <div>
+          <img style="width: 80px;height: 80px; border-radius: 50%;" src="images/linguini.png" alt="image of linguni">
+        </div>
+        <div style="display: flex;flex-direction: column;margin-left: 10px; gap: 9px;">
+          <span>Linguini <span style="color: grey;">@linguini</span></span>
+          <div style="margin-top: 20px;align-self: flex-start;border: 2px solid rgb(0, 153, 255);display: flex; justify-content: center;padding-left: 15px;padding-right: 15px;border-radius: 20px;color:rgb(0, 153, 255);padding-top: 5px;padding-bottom: 5px;">Follow</div>
+        </div>
+
+      </div>
+      <div style="height:120px;" class="items-inside">
+         <div>
+            <img style="width: 80px;height: 80px; border-radius: 50%;" src="images/ratatouille.jpg" alt="image of ratatouille">
+         </div>
+         <div style="display: flex;flex-direction: column;margin-left: 10px; gap: 9px;margin-top: 5px;">
+            <div style="margin-top: 50px;align-self: flex-end;border: 2px solid rgb(0, 153, 255);display: flex; justify-content: center;padding-left: 15px;padding-right: 15px;border-radius: 20px;color:rgb(0, 153, 255);padding-top: 5px;padding-bottom: 5px;">Follow</div>
+         </div>
+      </div>
+  </div>
+
+  </body>
+</html>
